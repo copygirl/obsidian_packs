@@ -1,0 +1,13 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "dynamictrees",
+                "tinkers-construct"
+            ]
+        }
+    },
+    "projectID": 386747,
+    "fileID": 2970306
+}

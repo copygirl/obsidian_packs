@@ -1,0 +1,12 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "storage-drawers"
+            ]
+        }
+    },
+    "projectID": 320310,
+    "fileID": 2711275
+}

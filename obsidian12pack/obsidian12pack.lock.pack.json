@@ -1,0 +1,19 @@
+{
+    "id": "obsidian12pack",
+    "mcVersion": "1.12.2",
+    "modloader": {
+        "type": "Modloader.Forge",
+        "mcVersion": "1.12.2",
+        "forgeVersion": "14.23.5.2854"
+    },
+    "title": "obsidian 1.12 Modpack",
+    "version": "0.0.1",
+    "authors": [
+        "copygirl"
+    ],
+    "packOptions": {
+        "multimcOptions": {
+            "selfupdateUrl": "https://meowface.org/copygirl/obsidian_packs/obsidian12pack.json"
+        }
+    }
+}

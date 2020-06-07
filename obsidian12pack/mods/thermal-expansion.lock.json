@@ -1,0 +1,13 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "codechicken-lib-1-8",
+                "thermal-foundation"
+            ]
+        }
+    },
+    "projectID": 69163,
+    "fileID": 2926431
+}

@@ -1,0 +1,14 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "cyclops-core",
+                "integrated-dynamics",
+                "integrated-tunnels"
+            ]
+        }
+    },
+    "projectID": 287357,
+    "fileID": 2920821
+}

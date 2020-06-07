@@ -1,0 +1,12 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "wanionlib"
+            ]
+        }
+    },
+    "projectID": 244258,
+    "fileID": 2880863
+}

@@ -1,0 +1,14 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "thermal-expansion",
+                "baubles",
+                "redstone-arsenal"
+            ]
+        }
+    },
+    "projectID": 300750,
+    "fileID": 2695517
+}

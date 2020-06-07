@@ -1,0 +1,12 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "tinkers-construct"
+            ]
+        }
+    },
+    "projectID": 263624,
+    "fileID": 2579934
+}

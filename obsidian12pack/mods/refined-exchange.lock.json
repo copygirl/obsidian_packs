@@ -1,0 +1,13 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "projecte",
+                "refined-storage"
+            ]
+        }
+    },
+    "projectID": 260343,
+    "fileID": 2655177
+}

@@ -1,0 +1,13 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "quark",
+                "dynamictrees"
+            ]
+        }
+    },
+    "projectID": 386753,
+    "fileID": 2971919
+}

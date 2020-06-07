@@ -1,0 +1,12 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "integrated-dynamics"
+            ]
+        }
+    },
+    "projectID": 380998,
+    "fileID": 2963584
+}
