@@ -66,7 +66,9 @@ root<Curse> {
         // ------------------
 
         +Mod.charsetTools             // Signal meter and stopwatch (useful for SimpleLogic mods)
-        +Mod.chisel                   // Extra blocks and varients to build with
+        +Mod.chisel  {
+            common.fileNameRegex = ".*1.0.1.44.*"
+        } // Extra blocks and varients to build with
             +Mod.unlimitedChiselWorks // - Even more blocks and variants!
         +Mod.chiselsBits              // Build custom sub-block decorations
         +Mod.cookingForBlockheads     // Simplified food crafting and kitchen decoration
