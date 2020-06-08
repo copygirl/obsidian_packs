@@ -183,6 +183,7 @@ root<Curse> {
                 +Mod.betterFoliage   { description = "Prettier vegetation, such as leaves and grass, at some FPS cost" }
                 +Mod.betterPlacement { description = "Don't skip blocks when holding down mouse button to place" }
                 +Mod.itemScroller    { description = "Use scroll wheel and other shortcuts to move items" }
+                +Mod.mage            { description = "Primarily fixes smooth lighting in and around water" }
                 +Mod.mumblelink      { description = "Links Minecraft to Mumble, enabling positional audio" }
             }
         }

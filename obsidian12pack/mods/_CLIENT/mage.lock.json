@@ -1,0 +1,11 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "side": "CLIENT",
+        "description": "Primarily fixes smooth lighting in and around water",
+        "optionalData": {
+        }
+    },
+    "projectID": 287471,
+    "fileID": 2625223
+}
