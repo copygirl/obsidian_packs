@@ -3,11 +3,10 @@
     "common": {
         "dependencies": {
             "REQUIRED": [
-                "integrated-dynamics",
-                "cyclops-core"
+                "thermal-foundation"
             ]
         }
     },
-    "projectID": 251389,
-    "fileID": 2920817
+    "projectID": 271835,
+    "fileID": 2920437
 }

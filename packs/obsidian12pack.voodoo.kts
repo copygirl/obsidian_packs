@@ -54,11 +54,10 @@ root<Curse> {
         // World Generation
         +Mod.biomesOPlenty    // More biomes and content
         +Mod.dynamictrees     // Pretty trees that grow over time
-            +Mod.dtbop                          // - Biomes O' Plenty compatibility
-            +Mod.dttc                           // - Thaumcraft compatibility
-            +Mod.dynamicTreesIntegratedDynamics // - Integrated Dynamics compatibility
-            +Mod.dynamicTreesTinkersConstruct   // - Tinkers Construct compatibility
-            +Mod.dynamicTreesQuark              // - Quark compatibility
+            +Mod.dtbop                        // - Biomes O' Plenty compatibility
+            +Mod.dttc                         // - Thaumcraft compatibility
+            +Mod.dynamicTreesTinkersConstruct // - Tinkers Construct compatibility
+            +Mod.dynamicTreesQuark            // - Quark compatibility
         +Mod.largeOreDeposits // Generates rare, large ore deposits
         +Mod.theLostCities    // Abandoned cities with infrastructure
 
@@ -66,26 +65,32 @@ root<Curse> {
         // == CONTENT MODS ==
         // ------------------
 
-        +Mod.chiselsBits            // Build custom sub-block decorations
-        +Mod.cookingForBlockheads   // Simplified food crafting and kitchen decoration
-        +Mod.exchangers             // Exchange slices of blocks quickly
-        +Mod.fairyLights            // Adorable looking hanging lights
-        +Mod.friendshipBracelet     // Make friends and teleport to them from anywhere!
-        +Mod.futureMc               // Newer Minecraft content in older versions
-        +Mod.leatherWorks           // Redone leather-working and packs for storage
-        +Mod.mrcrayfishFurnitureMod // Various deorative (and functional) furniture blocks
-        +Mod.mrcrayfishsGunMod      // Guns and attachments
-        +Mod.mrcrayfishsVehicleMod  // Customizable vehicles and fueling system
-        +Mod.respawnablePets        // Pets can respawn using an "Etheric Gem"
-        +Mod.scannable              // Scan for ores, animals and enemies, fancily!
-        +Mod.tinkersConstruct       // Create custom tools from many materials
-            +Mod.moarTinkers        // - More materials from mods, some with traits
-            +Mod.tinkersComplement  // - Smol smeltery and other goodies
-        +Mod.toolBelt               // Switch tools on the fly
-        +Mod.quark                  // Tons of Vanilla-style tweaks and additions
-        +Mod.quarkOddities          // Matrix enchanting and Totem of Holding
-        +Mod.waystones              // Teleportation!
-        +Mod.wearableBackpacks      // Backpacks!
+        +Mod.charsetTools             // Signal meter and stopwatch (useful for SimpleLogic mods)
+        +Mod.chisel                   // Extra blocks and varients to build with
+            +Mod.unlimitedChiselWorks // - Even more blocks and variants!
+        +Mod.chiselsBits              // Build custom sub-block decorations
+        +Mod.cookingForBlockheads     // Simplified food crafting and kitchen decoration
+        +Mod.exchangers               // Exchange slices of blocks quickly
+        +Mod.fairyLights              // Adorable looking hanging lights
+        +Mod.friendshipBracelet       // Make friends and teleport to them from anywhere!
+        // Fruit Phone (direct)       // WAILA alternative that requires a items to use
+        +Mod.futureMc                 // Newer Minecraft content in older versions
+        +Mod.leatherWorks             // Redone leather-working and packs for storage
+        +Mod.mrcrayfishFurnitureMod   // Various deorative (and functional) furniture blocks
+        +Mod.mrcrayfishsGunMod        // Guns and attachments
+        +Mod.mrcrayfishsVehicleMod    // Customizable vehicles and fueling system
+        +Mod.respawnablePets          // Pets can respawn using an "Etheric Gem"
+        +Mod.scannable                // Scan for ores, animals and enemies, fancily!
+        +Mod.theWeirdingGadget        // 3x3 chunk loading for a limited time
+        +Mod.tinkersConstruct         // Create custom tools from many materials
+            +Mod.moarTinkers          // - More materials from mods, some with traits
+            +Mod.tinkersComplement    // - Smol smeltery and other goodies
+        +Mod.toolBelt                 // Switch tools on the fly
+        +Mod.quark                    // Tons of Vanilla-style tweaks and additions
+        +Mod.quarkOddities            // Matrix enchanting and Totem of Holding
+        +Mod.waystones                // Teleportation!
+        +Mod.wearableBackpacks        // Backpacks!
+        +Mod.xtones                   // Modern and futuristic building blocks
 
         // Dimensions
         +Mod.theTwilightForest // Progress your way through a magical land
@@ -103,34 +108,29 @@ root<Curse> {
         +Mod.compactMachines         // Compact large automated structures in a single block
         +Mod.deepMobLearning         // Digital mob farming
         +Mod.fluxNetworks            // Wireless, cross-dimensional energy transfer
-        +Mod.integratedDynamics      // Build programmable networks for automation and more
-            +Mod.integratedCrafting  // - Craft automatically
-            +Mod.integratedNbt       // - Inspect NBT data
-            +Mod.integratedTerminals // - Manage items and fluids in the network
-            +Mod.integratedTunnels   // - Transfer items and fluid
         +Mod.immersiveEngineering    // Electrical power, machines, ...
             +Mod.engineersDecor      // - IE inspired decorative blocks and devices
             +Mod.engineersDoors      // - Treated Wood and Steel doors and trapdoors
             +Mod.immersivePetroleum  // - Oil extraction and processing
             +Mod.immersiveposts      // - Tall posts to attach cables to
         +Mod.opencomputers           // Modular computers programmable with Lua
-            +Mod.charsetAudio        // - Audio storage and cables
+            // Computronics (direct) // - Additional computer components
             +Mod.openscreens         // - Flatscreens and holographic screens
-            // Computronics (local)  // - Additional computer components
-        +Mod.retrocomputers          // Program computers using FORTH
         +Mod.solarFluxReborn         // Solar power!
         +Mod.thermalFoundation       // Thermal* base resources and tools
             +Mod.redstoneArsenal            // - Tools and armor which use power
             +Mod.redstoneRepositoryRevolved // - Upgrade to Redstone Arsenal items
+            +Mod.thermalCultivation         // - Watering cans. That's it.
             +Mod.thermalDynamics            // - Pipes for item, fluid and energy transport
             +Mod.thermalExpansion           // - Machines for processing and automation
             +Mod.thermalInnovation          // - Tiered, powered tools
-        +Mod.simplelogicGates       // Various redstone gates
-        +Mod.simplelogicWires       // Redstone wires (normal, insulated, bundled)
+        +Mod.simplelogicGates        // Various redstone gates
+        +Mod.simplelogicWires        // Redstone wires (normal, insulated, bundled)
 
         // Magic
         +Mod.botania                 // Plant magic
         +Mod.enderStorage18          // Shared storage even between dimensions
+        +Mod.magicArsenal            // Channel your energy into a variety of spells
         +Mod.projecte                // Transmute materials into other materials
             +Mod.projecteIntegration // - ProjectE integration for tons of mods
             +Mod.refinedExchange     // - Liquify items into EMC to craft with
@@ -144,7 +144,9 @@ root<Curse> {
         +Mod.psi                     // Programmable magic guns
 
         withTypeClass(Direct::class) {  }.list {
-            +"computronics" { url = "http://files.vexatos.com/Computronics/Computronics-1.12.2-1.6.6.jar" }
+            +"computronics"      { url = "http://files.vexatos.com/Computronics/Computronics-1.12.2-1.6.6.jar" }
+            +"fruitphone"        { url = "https://ci.elytradev.com/job/elytra/job/FruitPhone/job/1.12.2/8/artifact/build/libs/FruitPhone-1.12.2-2.86.jar" }
+            +"probedataprovider" { url = "https://ci.elytradev.com/job/elytra/job/ProbeDataProvider/job/1.12/6/artifact/build/libs/ProbeDataProviderAPI-MC1.12_ver1.1.1.jar" }
         }
 
         // SERVER OPTIONAL MODS

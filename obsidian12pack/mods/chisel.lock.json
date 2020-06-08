@@ -3,12 +3,10 @@
     "common": {
         "dependencies": {
             "REQUIRED": [
-                "mcmultipart",
-                "quacklib",
-                "shadowfacts-forgelin"
+                "ctm"
             ]
         }
     },
-    "projectID": 276918,
-    "fileID": 2668652
+    "projectID": 235279,
+    "fileID": 2915375
 }
