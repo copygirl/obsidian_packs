@@ -1,4 +1,5 @@
 /.gradle/
+/.idea/
 
 # Stores additional meta information for Voodoo.
 /.meta/
