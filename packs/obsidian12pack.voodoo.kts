@@ -125,6 +125,8 @@ root<Curse> {
             +Mod.thermalDynamics            // - Pipes for item, fluid and energy transport
             +Mod.thermalExpansion           // - Machines for processing and automation
             +Mod.thermalInnovation          // - Tiered, powered tools
+        +Mod.roboticparts            // Cyberpunk style augmentations for your body
+            +Mod.rewired             // - Even more augments and other stuff
         +Mod.simplelogicGates        // Various redstone gates
         +Mod.simplelogicWires        // Redstone wires (normal, insulated, bundled)
 

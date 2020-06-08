@@ -9,7 +9,8 @@
     "title": "obsidian 1.12 Modpack",
     "version": "0.0.1",
     "authors": [
-        "copygirl"
+        "copygirl",
+        "Nikky"
     ],
     "packOptions": {
         "multimcOptions": {
