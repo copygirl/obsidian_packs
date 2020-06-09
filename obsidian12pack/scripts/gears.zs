@@ -15,10 +15,9 @@ for name, gear in GEARS {
     for item in gear.items
         recipes.remove(item);
 
-    recipes.addShaped("hammer_gear_" + name.toLowerCase(),
-        gear.firstItem, [
-            [ hammer, ingot,  null ],
-            [  ingot, plate, ingot ],
-            [   null, ingot,  null ]
-        ]);
+    recipes.addShapedMirrored("hammer_gear_" + name.toLowerCase(),
+        gear.firstItem,
+        [[ hammer, ingot,  null ],
+         [  ingot, plate, ingot ],
+         [   null, ingot,  null ]]);
 }
