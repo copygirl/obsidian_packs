@@ -41,11 +41,11 @@ recipes.addShaped("basic_workshop", <artisanworktables:workshop:5>, [
     [     treated_wood,   treated_crate,     treated_wood ]
 ]);
 
-// Designers's Workshop
+// Designer's Workshop
 var design_pattern = <artisanworktables:design_pattern>;
 RecipeBuilder.get("basic")
     .setName("designers_workshop")
-    .addOutput(<artisanworktables:workshop:5>)
+    .addOutput(<artisanworktables:workshop:12>)
     .addTool(hammer, 20)
     .setShaped([
         [   <ore:woolBlue>,  design_pattern,            design_pattern,  design_pattern,   <ore:woolBlue> ],
