@@ -1,4 +1,4 @@
 {
-    "type": "voodoo.data.lock.LockEntry.Direct",
+    "type": "direct",
     "url": "https://ci.elytradev.com/job/elytra/job/FruitPhone/job/1.12.2/8/artifact/build/libs/FruitPhone-1.12.2-2.86.jar"
 }

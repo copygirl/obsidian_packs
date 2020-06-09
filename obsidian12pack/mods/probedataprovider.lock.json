@@ -1,4 +1,4 @@
 {
-    "type": "voodoo.data.lock.LockEntry.Direct",
+    "type": "direct",
     "url": "https://ci.elytradev.com/job/elytra/job/ProbeDataProvider/job/1.12/6/artifact/build/libs/ProbeDataProviderAPI-MC1.12_ver1.1.1.jar"
 }

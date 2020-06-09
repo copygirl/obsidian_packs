@@ -1,7 +1,7 @@
 plugins {
     // kotlin("jvm") version "1.3.70" // automatically applied
     // idea // automatically applied
-    id("voodoo") version "0.5.9-SNAPSHOT"
+    id("voodoo") version "0.5.13-SNAPSHOT"
 }
 
 voodoo {
