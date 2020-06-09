@@ -143,10 +143,6 @@ root<Curse> {
         +Mod.embersRekindled         // Dwarven magic
         +Mod.enderStorage18          // Shared storage even between dimensions
         +Mod.magicArsenal            // Channel your energy into a variety of spells
-        +Mod.projecte                // Transmute materials into other materials
-            +Mod.projecteIntegration // - ProjectE integration for tons of mods
-            +Mod.refinedExchange     // - Liquify items into EMC to craft with
-            +Mod.thaumicEquivalence  // - Adds EMC values to Thaumcraft items
         +Mod.reliquaryV13            // Magically themed utility items and blocks
         +Mod.roots                   // Natural, wild magic
         +Mod.thaumcraft              // Use thaumaturgy to perform miracles
