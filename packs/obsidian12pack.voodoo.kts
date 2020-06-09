@@ -85,7 +85,6 @@ root<Curse> {
         +Mod.fairyLights              // Adorable looking hanging lights
         +Mod.friendshipBracelet       // Make friends and teleport to them from anywhere!
         // Fruit Phone (direct)       // WAILA alternative that requires a items to use
-        +Mod.futureMc                 // Newer Minecraft content in older versions
         +Mod.leatherWorks             // Redone leather-working and packs for storage
         +Mod.mrcrayfishFurnitureMod   // Various deorative (and functional) furniture blocks
         +Mod.mrcrayfishsGunMod        // Guns and attachments
