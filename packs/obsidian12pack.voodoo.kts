@@ -45,11 +45,20 @@ root<Curse> {
         +Mod.multiMine      // Save mining progress, mine with other players
         +Mod.passableLeaves // Pass through leaves
 
+        // Cosmetics
+        +Mod.morePlayerModels    // Player model customization
+        +Mod.tails               // Lets you have tails and ears and stuff!
+            +Mod.immersiveFloofs // - Shoot players to make them floofy
+
         // Customization
         +Mod.artisanWorktables     // Custom crafting tables, can use tools and fluids
             +Mod.artisanAutomation // - Automation for Artisan Worktables
         +Mod.crafttweaker          // Add, change and remove recipes
             +Mod.modtweaker        // - Change more mod-related recipes
+
+        // ------------------
+        // == CONTENT MODS ==
+        // ------------------
 
         // World Generation
         +Mod.biomesOPlenty    // More biomes and content
@@ -61,15 +70,16 @@ root<Curse> {
         +Mod.largeOreDeposits // Generates rare, large ore deposits
         +Mod.theLostCities    // Abandoned cities with infrastructure
 
-        // ------------------
-        // == CONTENT MODS ==
-        // ------------------
+        // Dimensions
+        +Mod.theTwilightForest // Progress your way through a magical land
 
+        // Various
         +Mod.charsetTools             // Signal meter and stopwatch (useful for SimpleLogic mods)
         +Mod.chisel { common.fileNameRegex = ".*1.0.1.44.*" }
                                       // Extra blocks and varients to build with
             +Mod.unlimitedChiselWorks // - Even more blocks and variants!
         +Mod.chiselsBits              // Build custom sub-block decorations
+        +Mod.comforts                 // Sleep anyway and skip to the night
         +Mod.cookingForBlockheads     // Simplified food crafting and kitchen decoration
         +Mod.exchangers               // Exchange slices of blocks quickly
         +Mod.fairyLights              // Adorable looking hanging lights
@@ -93,9 +103,6 @@ root<Curse> {
         +Mod.wearableBackpacks        // Backpacks!
         +Mod.xtones                   // Modern and futuristic building blocks
 
-        // Dimensions
-        +Mod.theTwilightForest // Progress your way through a magical land
-
         // Storage
         +Mod.appliedEnergistics2         // Digital storage and automation
             +Mod.extracells2             // - Store and craft with fluids (and more)
@@ -110,10 +117,11 @@ root<Curse> {
         +Mod.deepMobLearning         // Digital mob farming
         +Mod.fluxNetworks            // Wireless, cross-dimensional energy transfer
         +Mod.immersiveEngineering    // Electrical power, machines, ...
-            +Mod.engineersDecor      // - IE inspired decorative blocks and devices
-            +Mod.engineersDoors      // - Treated Wood and Steel doors and trapdoors
-            +Mod.immersivePetroleum  // - Oil extraction and processing
-            +Mod.immersiveposts      // - Tall posts to attach cables to
+            +Mod.engineersDecor        // - IE inspired decorative blocks and devices
+            +Mod.engineersDoors        // - Treated Wood and Steel doors and trapdoors
+            +Mod.immersiveIntelligence // - Data & Electronics, Logistics, Warfare, Intelligence
+            +Mod.immersivePetroleum    // - Oil extraction and processing
+            +Mod.immersiveposts        // - Tall posts to attach cables to
         +Mod.opencomputers           // Modular computers programmable with Lua
             // Computronics (direct) // - Additional computer components
             +Mod.openscreens         // - Flatscreens and holographic screens
@@ -132,6 +140,7 @@ root<Curse> {
 
         // Magic
         +Mod.botania                 // Plant magic
+        +Mod.embersRekindled         // Dwarven magic
         +Mod.enderStorage18          // Shared storage even between dimensions
         +Mod.magicArsenal            // Channel your energy into a variety of spells
         +Mod.projecte                // Transmute materials into other materials
@@ -139,12 +148,16 @@ root<Curse> {
             +Mod.refinedExchange     // - Liquify items into EMC to craft with
             +Mod.thaumicEquivalence  // - Adds EMC values to Thaumcraft items
         +Mod.reliquaryV13            // Magically themed utility items and blocks
-        +Mod.thaumcraft              // So much Magic!
+        +Mod.roots                   // Natural, wild magic
+        +Mod.thaumcraft              // Use thaumaturgy to perform miracles
             +Mod.expandedArcanum             // - Thaumcraft drill heads, IE native clusters
             +Mod.engineeredGolems            // - Golems from treated wood and steel
             +Mod.thaumcraftInventoryScanning // - Easily scan items from inventory screens
             +Mod.thaumicAugmentation         // - More magic and.. doors
         +Mod.psi                     // Programmable magic guns
+            +Mod.randomPsideas       // - More Psi tools to play with
+            +Mod.psio                // - Balancing Psi regeneration
+            +Mod.psionicPeripherals  // - Guntools and psimetal bow
 
         withTypeClass(Direct::class) {  }.list {
             +"computronics"      { url = "http://files.vexatos.com/Computronics/Computronics-1.12.2-1.6.6.jar" }

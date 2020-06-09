@@ -1,0 +1,15 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "autoreglib",
+                "librarianlib",
+                "psi",
+                "shadowfacts-forgelin"
+            ]
+        }
+    },
+    "projectID": 324813,
+    "fileID": 2737411
+}

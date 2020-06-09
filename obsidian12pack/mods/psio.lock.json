@@ -1,0 +1,13 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "psi",
+                "libnine"
+            ]
+        }
+    },
+    "projectID": 339394,
+    "fileID": 2778670
+}
