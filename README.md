@@ -1,18 +1,20 @@
 # #obsidian 1.12.2 Modpack
 
-This modpack is by and for the **#obsidian Research** community. It's a kitchen-sink-y modpack with focus on Technology & Automation, Magic and Building, as per our interests. Our list of mods can be found [here](packs/obsidian12pack.voodoo.kts) - sorted and annotated!
+This modpack is by and for the **#obsidian Research** community. It's a kitchen-sink-y modpack with focus on Technology, Automation, Magic and Building, as per our interests. A list of mods can be found [here](packs/obsidian12pack.voodoo.kts) - sorted and annotated!
+
+![](docs/screenshot.png)
+
+We use the modpack development tool [Voodoo](https://github.com/DaemonicLabs/Voodoo) for easier development, version control, management of mods, keeping them up-to-date, and to have a self-updating MultiMC instance for our players.
 
 ## Download and Installation
 
-We use [Voodoo](https://github.com/DaemonicLabs/Voodoo) for easier modpack development, keeping mods up-to-date and to have a self-updating [MultiMC](https://multimc.org/) instance for our players.
+Simply drag this link >> [`obsidian12pack.zip`](https://meowface.org/copygirl/obsidian12pack.zip) << and drop it into the main [MultiMC](https://multimc.org/) window to create a new instance. On first launch, an error will likely appear; in this case just launch it again. It will then ask you which optional mods you want and download everything for you before starting the game.
 
-Simply drag this link >> [`obsidian12pack.zip`](https://meowface.org/copygirl/obsidian12pack.zip) << and drop it into the MultiMC window to create a new instance. You might have to start it up twice. Then it will ask you which optional mods you want and download everything for you.
-
-If you want to create a new singleplayer world, we recommend the *Lost Cities (BoP)* world type and created a custom profile for it. If you're creating your own server, set these options in the `server.properties`:
+If you want to create a new singleplayer world, we recommend the "Lost Cities (BoP)" world type, for which we've created a custom profile. Alternatively, set these options in the `server.properties` if you're creating your own server:
 
 ```ini
 level-type=lostcities_bop
 generator-settings={"profile"\:"custom"}
 ```
 
-If you'd like to play on the official server, feel free to ask copygirl.
+If you'd like to play on the official server, feel free to poke @copygirl.
