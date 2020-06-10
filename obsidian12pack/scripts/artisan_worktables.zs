@@ -20,7 +20,7 @@ var metal_barrel     = <immersiveengineering:metal_device0:4>;
 
 // Basic Workshop
 recipes.addShaped("basic_workshop", <artisanworktables:workshop:5>,
-    [[  <ore:plateIron>, <ore:worktable>,  <ore:plateIron> ],
+    [[  <ore:plateIron>, <ore:workbench>,  <ore:plateIron> ],
      [ treated_scaffold,  treated_barrel, treated_scaffold ],
      [     treated_wood,   treated_crate,     treated_wood ]]);
 
