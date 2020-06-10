@@ -1,6 +1,6 @@
 title     = "obsidian 1.12 Modpack"
 authors   = listOf("copygirl", "Nikky")
-version   = "0.2.2"
+version   = "0.2.3"
 icon      = rootFolder.resolve("icon.png")
 
 mcVersion = "1.12.2"
