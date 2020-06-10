@@ -1,4 +1,3 @@
-var hammer = <immersiveengineering:tool:0>;
 for name, plate in PLATES {
     var ingot = INGOTS[name];
     if (isNull(ingot)) continue;
@@ -9,5 +8,5 @@ for name, plate in PLATES {
 
     recipes.addShapeless("hammer_plate_" + name.toLowerCase(),
         plate.firstItem,
-        [ hammer, ingot ]);
+        [ HAMMER.transformDamage(), ingot ]);
 }

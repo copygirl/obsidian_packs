@@ -5,7 +5,6 @@ import mods.jei.JEI;
 JEI.removeAndHide(<appliedenergistics2:material:40>);
 <ore:gearWood>.remove(<appliedenergistics2:material:40>);
 
-var hammer = <immersiveengineering:tool:0>;
 for name, gear in GEARS {
     var ingot = INGOTS[name];
     var plate = PLATES[name];
@@ -15,6 +14,7 @@ for name, gear in GEARS {
     for item in gear.items
         recipes.remove(item);
 
+    var hammer = HAMMER.transformDamage();
     recipes.addShapedMirrored("hammer_gear_" + name.toLowerCase(),
         gear.firstItem,
         [[ hammer, ingot,  null ],

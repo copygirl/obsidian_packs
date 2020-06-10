@@ -19,7 +19,7 @@ recipes.removeByMod("leatherworks");
 // Hide + Knife => Scraped Hide
 recipes.addShapeless("scrape_hide",
     <leatherworks:crafting_leather_scraped>,
-    [ <ore:rawhide>, KNIFE.transformDamage() ]);
+    [ KNIFE.transformDamage(), <ore:rawhide> ]);
 
 
 // Scraped Hide + Water => Washed Hide
