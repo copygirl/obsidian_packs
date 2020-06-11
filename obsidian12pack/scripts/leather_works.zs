@@ -29,7 +29,7 @@ JEI.addDescription(<leatherworks:crafting_leather_washed>,
 BottlingMachine.addRecipe(<leatherworks:crafting_leather_washed>,
     <leatherworks:crafting_leather_scraped>, <liquid:water>*250);
 Casting.addTableRecipe(<leatherworks:crafting_leather_washed>,
-    <leatherworks:crafting_leather_scraped>, <liquid:water>*250, 20);
+    <leatherworks:crafting_leather_scraped>, <liquid:water>*250, true, 20);
 Transposer.addFillRecipe(<leatherworks:crafting_leather_washed>,
     <leatherworks:crafting_leather_scraped>, <liquid:water>*250, 400);
 
@@ -57,7 +57,7 @@ JEI.addDescription(<leatherworks:crafting_leather_soaked>,
 BottlingMachine.addRecipe(<leatherworks:crafting_leather_soaked>,
     <leatherworks:crafting_leather_washed>, <liquid:leatherworks:tannin>*250);
 Casting.addTableRecipe(<leatherworks:crafting_leather_soaked>,
-    <leatherworks:crafting_leather_washed>, <liquid:leatherworks:tannin>, 250);
+    <leatherworks:crafting_leather_washed>, <liquid:leatherworks:tannin>, true, 250);
 Transposer.addFillRecipe(<leatherworks:crafting_leather_soaked>,
     <leatherworks:crafting_leather_washed>, <liquid:leatherworks:tannin>*250, 400);
 
