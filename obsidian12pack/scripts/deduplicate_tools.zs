@@ -6,7 +6,6 @@ import mods.jei.JEI;
 var tool_types = [ "shovel", "pickaxe", "axe", "sword", "hoe" ] as string[];
 var embers_materials = [ "copper", "silver", "lead", "aluminum", "bronze", "electrum", "nickel", "tin" ] as string[];
 
-for tool in tool_types {
+for tool in tool_types
     for mat in embers_materials
         JEI.removeAndHide(itemUtils.getItem("embers:" + tool + "_" + mat));
-}
