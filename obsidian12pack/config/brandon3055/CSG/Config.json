@@ -1,0 +1,11 @@
+{
+  "inventory": {
+    "0:7": "minecraft:baked_potato,16",
+    "0:3": "minecraft:stone_shovel",
+    "0:0": "minecraft:stone_pickaxe",
+    "0:2": "minecraft:stone_axe",
+    "0:8": "akashictome:tome,1,0,{\"akashictome:data\":{tconstruct:{id:\"tconstruct:book\",Count:1b,tag:{\"akashictome:definedMod\":\"tconstruct\"},Damage:0s},botania:{id:\"botania:lexicon\",Count:1b,tag:{\"akashictome:definedMod\":\"botania\"},Damage:0s},thaumcraft:{id:\"thaumcraft:thaumonomicon\",Count:1b,tag:{\"akashictome:definedMod\":\"thaumcraft\"},Damage:0s},mysticalworld:{id:\"patchouli:guide_book\",Count:1b,tag:{\"akashictome:definedMod\":\"mysticalworld\",\"patchouli:book\":\"mysticalworld:world_guide\"},Damage:0s},immersiveengineering:{id:\"immersiveengineering:tool\",Count:1b,tag:{\"akashictome:definedMod\":\"immersiveengineering\"},Damage:3s},opencomputers:{id:\"opencomputers:tool\",Count:1b,tag:{\"akashictome:definedMod\":\"opencomputers\"},Damage:4s},twilightforest:{id:\"patchouli:guide_book\",Count:1b,tag:{\"akashictome:definedMod\":\"twilightforest\",\"patchouli:book\":\"twilightforest:guide\"},Damage:0s},roots:{id:\"patchouli:guide_book\",Count:1b,tag:{\"akashictome:definedMod\":\"roots\",\"patchouli:book\":\"roots:roots_guide\"},Damage:0s},cfm:{id:\"cfm:item_recipe_book\",Count:1b,tag:{\"akashictome:definedMod\":\"cfm\"},Damage:0s},engineersdecor:{id:\"patchouli:guide_book\",Count:1b,tag:{\"akashictome:definedMod\":\"engineersdecor\",\"patchouli:book\":\"engineersdecor:engineersdecor_manual\"},Damage:0s},deepmoblearning:{id:\"patchouli:guide_book\",Count:1b,tag:{\"akashictome:definedMod\":\"deepmoblearning\",\"patchouli:book\":\"deepmoblearning:book\"},Damage:0s}}}",
+    "2:0": "fruitphone:handheld,1,0,{\"fruitphone:color\":5593009}",
+    "0:1": "minecraft:stone_sword"
+  }
+}
