@@ -1,0 +1,12 @@
+{
+    "type": "curse",
+    "common": {
+        "side": "CLIENT",
+        "description": "Shows health indicators above mobs",
+        "optionalData": {
+            "selected": true
+        }
+    },
+    "projectID": 238372,
+    "fileID": 2595310
+}

@@ -36,12 +36,12 @@ root<Curse> {
         +Mod.defaultOptions       // Provides options and keybinds when first launching the game
         +Mod.jei                  // Look up recipes and uses of items
         +Mod.journeymap           // Automatically maps the world as you explore in real-time
+        +Mod.lingeringLoot        // Powerful rules engine to affect item drops
         +Mod.noRecipeBook         // Removes the vanilla recipe book in favor of JEI
         +Mod.toastControl         // Removes annoying tutorial / recipe toasts
         +Mod.unidict              // Standardizes output of all recipes
 
         // Gameplay Changes
-        +Mod.betterportals  // Portals you can see and walk through
         +Mod.multiMine      // Save mining progress, mine with other players
         +Mod.passableLeaves // Pass through leaves
 
@@ -55,6 +55,7 @@ root<Curse> {
             +Mod.artisanAutomation // - Automation for Artisan Worktables
         +Mod.crafttweaker          // Add, change and remove recipes
             +Mod.modtweaker        // - Change more mod-related recipes
+        +Mod.customStarterGear     // Get some gear the first time you spawn
 
         // ------------------
         // == CONTENT MODS ==
@@ -74,12 +75,13 @@ root<Curse> {
         +Mod.theTwilightForest // Progress your way through a magical land
 
         // Various
+        +Mod.akashicTome              // The book to hold all your books
         +Mod.charsetTools             // Signal meter and stopwatch (useful for SimpleLogic mods)
         +Mod.chisel { common.fileNameRegex = ".*1.0.1.44.*" }
                                       // Extra blocks and varients to build with
             +Mod.unlimitedChiselWorks // - Even more blocks and variants!
         +Mod.chiselsBits              // Build custom sub-block decorations
-        +Mod.comforts                 // Sleep anyway and skip to the night
+        +Mod.comforts                 // Sleep anywhere and skip to the night
         +Mod.cookingForBlockheads     // Simplified food crafting and kitchen decoration
         +Mod.exchangers               // Exchange slices of blocks quickly
         +Mod.fairyLights              // Adorable looking hanging lights
@@ -91,6 +93,7 @@ root<Curse> {
         +Mod.mrcrayfishsVehicleMod    // Customizable vehicles and fueling system
         +Mod.respawnablePets          // Pets can respawn using an "Etheric Gem"
         +Mod.scannable                // Scan for ores, animals and enemies, fancily!
+        +Mod.structuredCrafting       // Craft directly in-world from blocks or inventories
         +Mod.theWeirdingGadget        // 3x3 chunk loading for a limited time
         +Mod.tinkersConstruct         // Create custom tools from many materials
             +Mod.moarTinkers          // - More materials from mods, some with traits
@@ -182,6 +185,7 @@ root<Curse> {
             group {
                 optional { selected = true }
             }.list {
+                +Mod.neat { description = "Shows health indicators above mobs" }
             }
 
             // CLIENT OPTIONAL MODS
