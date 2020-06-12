@@ -29,7 +29,7 @@ JEI.addDescription(<leatherworks:crafting_leather_washed>,
 BottlingMachine.addRecipe(<leatherworks:crafting_leather_washed>,
     <leatherworks:crafting_leather_scraped>, <liquid:water>*250);
 Casting.addTableRecipe(<leatherworks:crafting_leather_washed>,
-    <leatherworks:crafting_leather_scraped>, <liquid:water>*250, true, 20);
+    <leatherworks:crafting_leather_scraped>, <liquid:water>, 250, true);
 Transposer.addFillRecipe(<leatherworks:crafting_leather_washed>,
     <leatherworks:crafting_leather_scraped>, <liquid:water>*250, 400);
 
@@ -43,11 +43,11 @@ recipes.addShapeless("tannin_bottle", <leatherworks:tannin_bottle>,
     [ <leatherworks:tannin_ball>, <minecraft:glass_bottle> ]);
 
 // Tannins => Tannin (Liquid)
-Squeezer.addRecipe(null, <liquid:leatherworks:tannin>*500,
+Squeezer.addRecipe(null, <liquid:leatherworks:tannin>*1000,
     <leatherworks:tannin_ball>, 1200);
-Melting.addRecipe(<liquid:leatherworks:tannin>*250,
+Melting.addRecipe(<liquid:leatherworks:tannin>*500,
     <leatherworks:tannin_ball>);
-Transposer.addExtractRecipe(<liquid:leatherworks:tannin>*500,
+Transposer.addExtractRecipe(<liquid:leatherworks:tannin>*1000,
     <leatherworks:tannin_ball>, 1200);
 
 // Washed Hide + Tannin => Prepared Hide
@@ -55,11 +55,11 @@ JEI.addDescription(<leatherworks:crafting_leather_soaked>,
     "Made by holding a washed hide and interacting " +
     "with a tannin filled barrel or cauldron.");
 BottlingMachine.addRecipe(<leatherworks:crafting_leather_soaked>,
-    <leatherworks:crafting_leather_washed>, <liquid:leatherworks:tannin>*250);
+    <leatherworks:crafting_leather_washed>, <liquid:leatherworks:tannin>*100);
 Casting.addTableRecipe(<leatherworks:crafting_leather_soaked>,
-    <leatherworks:crafting_leather_washed>, <liquid:leatherworks:tannin>, true, 250);
+    <leatherworks:crafting_leather_washed>, <liquid:leatherworks:tannin>, 100, true);
 Transposer.addFillRecipe(<leatherworks:crafting_leather_soaked>,
-    <leatherworks:crafting_leather_washed>, <liquid:leatherworks:tannin>*250, 400);
+    <leatherworks:crafting_leather_washed>, <liquid:leatherworks:tannin>*100, 400);
 
 
 // Drying Prepared Hide => Leather
