@@ -14,7 +14,6 @@ global KNIFE as IIngredient =
     <mysticalworld:silver_knife:*>;
 
 global HAMMER as IIngredient =
-    <embers:tinker_hammer:*> |
     <thermalfoundation:tool.hammer_copper:*> |
     <thermalfoundation:tool.hammer_tin:*> |
     <thermalfoundation:tool.hammer_silver:*> |
