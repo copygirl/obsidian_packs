@@ -1,0 +1,11 @@
+{
+    "type": "curse",
+    "common": {
+        "side": "CLIENT",
+        "description": "For those who want it (Quark already offers sorting and more)",
+        "optionalData": {
+        }
+    },
+    "projectID": 223094,
+    "fileID": 2923460
+}

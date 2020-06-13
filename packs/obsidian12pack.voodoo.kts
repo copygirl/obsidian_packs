@@ -1,6 +1,6 @@
 title     = "obsidian 1.12 Modpack"
 authors   = listOf("copygirl", "Nikky")
-version   = "0.2.4"
+version   = "0.3.0"
 icon      = rootFolder.resolve("icon.png")
 
 mcVersion = "1.12.2"
@@ -185,7 +185,8 @@ root<Curse> {
             group {
                 optional { selected = true }
             }.list {
-                +Mod.neat { description = "Shows health indicators above mobs" }
+                +Mod.controlling { description = "Improves controls with search, showing conflicts" }
+                +Mod.neat        { description = "Shows health indicators above mobs" }
             }
 
             // CLIENT OPTIONAL MODS
@@ -194,6 +195,7 @@ root<Curse> {
             }.list {
                 +Mod.betterFoliage   { description = "Prettier vegetation, such as leaves and grass, at some FPS cost" }
                 +Mod.betterPlacement { description = "Don't skip blocks when holding down mouse button to place" }
+                +Mod.inventoryTweaks { description = "For those who want it (Quark already offers sorting and more)" }
                 +Mod.itemScroller    { description = "Use scroll wheel and other shortcuts to move items" }
                 +Mod.mumblelink      { description = "Links Minecraft to Mumble, enabling positional audio" }
             }
