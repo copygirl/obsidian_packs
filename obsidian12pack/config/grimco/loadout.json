@@ -1,0 +1,31 @@
+{
+  "basic": [
+    {
+      "item": "minecraft:stone_pickaxe"
+    },
+    {
+      "item": "minecraft:stone_sword"
+    },
+    {
+      "item": "minecraft:stone_axe"
+    },
+    {
+      "item": "minecraft:stone_shovel"
+    },
+    {
+      "nbt": "{\"fruitphone:color\":5593009}",
+      "item": "fruitphone:handheld",
+      "data": 0,
+      "type": "minecraft:item_nbt"
+    },
+    {
+      "item": "minecraft:baked_potato",
+      "count": 16
+    },
+    {
+      "nbt": "{\"akashictome:data\":{tconstruct:{id:\"tconstruct:book\",Count:1b,tag:{\"akashictome:definedMod\":\"tconstruct\"},Damage:0s},botania:{id:\"botania:lexicon\",Count:1b,tag:{\"akashictome:definedMod\":\"botania\"},Damage:0s},thaumcraft:{id:\"thaumcraft:thaumonomicon\",Count:1b,tag:{\"akashictome:definedMod\":\"thaumcraft\"},Damage:0s},mysticalworld:{id:\"patchouli:guide_book\",Count:1b,tag:{\"akashictome:definedMod\":\"mysticalworld\",\"patchouli:book\":\"mysticalworld:world_guide\"},Damage:0s},immersiveengineering:{id:\"immersiveengineering:tool\",Count:1b,tag:{\"akashictome:definedMod\":\"immersiveengineering\"},Damage:3s},opencomputers:{id:\"opencomputers:tool\",Count:1b,tag:{\"akashictome:definedMod\":\"opencomputers\"},Damage:4s},twilightforest:{id:\"patchouli:guide_book\",Count:1b,tag:{\"akashictome:definedMod\":\"twilightforest\",\"patchouli:book\":\"twilightforest:guide\"},Damage:0s},roots:{id:\"patchouli:guide_book\",Count:1b,tag:{\"akashictome:definedMod\":\"roots\",\"patchouli:book\":\"roots:roots_guide\"},Damage:0s},cfm:{id:\"cfm:item_recipe_book\",Count:1b,tag:{\"akashictome:definedMod\":\"cfm\"},Damage:0s},engineersdecor:{id:\"patchouli:guide_book\",Count:1b,tag:{\"akashictome:definedMod\":\"engineersdecor\",\"patchouli:book\":\"engineersdecor:engineersdecor_manual\"},Damage:0s},deepmoblearning:{id:\"patchouli:guide_book\",Count:1b,tag:{\"akashictome:definedMod\":\"deepmoblearning\",\"patchouli:book\":\"deepmoblearning:book\"},Damage:0s}}}",
+      "item": "akashictome:tome",
+      "type": "minecraft:item_nbt"
+    }
+  ]
+}

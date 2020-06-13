@@ -55,7 +55,7 @@ root<Curse> {
             +Mod.artisanAutomation // - Automation for Artisan Worktables
         +Mod.crafttweaker          // Add, change and remove recipes
             +Mod.modtweaker        // - Change more mod-related recipes
-        +Mod.customStarterGear     // Get some gear the first time you spawn
+        +Mod.loadout               // Receive starting items first time you spawn
 
         // ------------------
         // == CONTENT MODS ==
