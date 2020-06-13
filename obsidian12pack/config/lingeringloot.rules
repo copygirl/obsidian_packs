@@ -103,6 +103,16 @@ crap [minecraft:cobblestone, minecraft:snowball
 safe [(timer=300) %vanillaPickupDelay]
 vanillaPickupDelay [(delay=10), (delay=40)]
 
+# convert Mystical World ores to Thermal Foundation equivalents
+5 %safe mysticalworld:copper_ore -> convert(thermalfoundation:ore@0)
+5 %safe mysticalworld:silver_ore -> convert(thermalfoundation:ore@2)
+
+# convert Embers ores to Thermal Foundation equivalents
+5 %safe embers:ore_tin -> convert(thermalfoundation:ore@1)
+5 %safe embers:ore_aluminum -> convert(thermalfoundation:ore@4)
+5 %safe embers:ore_nickel -> convert(thermalfoundation:ore@5)
+5 %safe embers:ore_lead -> convert(thermalfoundation:ore@3)
+
 1 @creativeGive -> timer(60.0) finalize
 0 snowball -> despawn(H)
 -1 %safe @playerDrop -> timer(3600.0)
