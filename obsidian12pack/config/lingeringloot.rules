@@ -103,6 +103,9 @@ crap [minecraft:cobblestone, minecraft:snowball
 safe [(timer=300) %vanillaPickupDelay]
 vanillaPickupDelay [(delay=10), (delay=40)]
 
+thrownOrNatural [@playerToss, !@playerCaused]
+dynamicTreesSapling [:dynamictrees, :dynamictreesbop, :dynamictreesquark, :dynamictreestc, :dynamictreestconstruct]
+
 # convert Mystical World ores to Thermal Foundation equivalents
 5 %safe mysticalworld:copper_ore -> convert(thermalfoundation:ore@0)
 5 %safe mysticalworld:silver_ore -> convert(thermalfoundation:ore@2)
@@ -112,6 +115,8 @@ vanillaPickupDelay [(delay=10), (delay=40)]
 5 %safe embers:ore_aluminum -> convert(thermalfoundation:ore@4)
 5 %safe embers:ore_nickel -> convert(thermalfoundation:ore@5)
 5 %safe embers:ore_lead -> convert(thermalfoundation:ore@3)
+
+2 %safe %thrownOrNatural $treeSapling !%dynamicTreesSapling -> timer(300) despawn(H) finalize
 
 1 @creativeGive -> timer(60.0) finalize
 0 snowball -> despawn(H)
