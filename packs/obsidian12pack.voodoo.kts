@@ -1,6 +1,6 @@
 title     = "obsidian 1.12 Modpack"
 authors   = listOf("copygirl", "Nikky")
-version   = "0.3.0"
+version   = "0.3.1"
 icon      = rootFolder.resolve("icon.png")
 
 mcVersion = "1.12.2"
@@ -37,8 +37,6 @@ root<Curse> {
         +Mod.jei                  // Look up recipes and uses of items
         +Mod.journeymap           // Automatically maps the world as you explore in real-time
         +Mod.lingeringLoot        // Powerful rules engine to affect item drops
-        +Mod.noRecipeBook         // Removes the vanilla recipe book in favor of JEI
-        +Mod.toastControl         // Removes annoying tutorial / recipe toasts
         +Mod.unidict              // Standardizes output of all recipes
 
         // Gameplay Changes
@@ -185,8 +183,10 @@ root<Curse> {
             group {
                 optional { selected = true }
             }.list {
-                +Mod.controlling { description = "Improves controls with search, showing conflicts" }
-                +Mod.neat        { description = "Shows health indicators above mobs" }
+                +Mod.controlling  { description = "Improves controls with search, showing conflicts" }
+                +Mod.neat         { description = "Shows health indicators above mobs" }
+                +Mod.noRecipeBook { description = "Removes the vanilla recipe book (in favor of JEI)" }
+                +Mod.toastControl { description = "Removes annoying tutorial / recipe toasts" }
             }
 
             // CLIENT OPTIONAL MODS

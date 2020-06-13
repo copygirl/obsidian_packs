@@ -1,0 +1,12 @@
+{
+    "type": "curse",
+    "common": {
+        "side": "CLIENT",
+        "description": "Removes the vanilla recipe book (in favor of JEI)",
+        "optionalData": {
+            "selected": true
+        }
+    },
+    "projectID": 284904,
+    "fileID": 2568865
+}

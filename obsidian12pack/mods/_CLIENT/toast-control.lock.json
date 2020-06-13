@@ -1,6 +1,11 @@
 {
     "type": "curse",
     "common": {
+        "side": "CLIENT",
+        "description": "Removes annoying tutorial / recipe toasts",
+        "optionalData": {
+            "selected": true
+        },
         "dependencies": {
             "REQUIRED": [
                 "placebo"
