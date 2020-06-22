@@ -115,6 +115,7 @@ dynamicTreesSapling [:dynamictrees, :dynamictreesbop, :dynamictreesquark, :dynam
 5 %safe embers:ore_aluminum -> convert(thermalfoundation:ore@4)
 5 %safe embers:ore_nickel -> convert(thermalfoundation:ore@5)
 5 %safe embers:ore_lead -> convert(thermalfoundation:ore@3)
+5 %safe embers:ore_copper -> convert(thermalfoundation:ore@0)
 
 2 %safe %thrownOrNatural $treeSapling !%dynamicTreesSapling -> timer(300) despawn(H) finalize
 
