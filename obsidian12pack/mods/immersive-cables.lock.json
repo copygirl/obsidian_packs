@@ -3,11 +3,10 @@
     "common": {
         "dependencies": {
             "REQUIRED": [
-                "dynamictrees",
-                "quark"
+                "immersive-engineering"
             ]
         }
     },
-    "projectID": 386753,
-    "fileID": 2983080
+    "projectID": 283992,
+    "fileID": 2595013
 }

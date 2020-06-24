@@ -7,10 +7,11 @@
         "forgeVersion": "14.23.5.2854"
     },
     "title": "obsidian 1.12 Modpack",
-    "version": "0.3.1",
+    "version": "0.4.0",
     "authors": [
         "copygirl",
-        "Nikky"
+        "Nikky",
+        "capitalthree"
     ],
     "packOptions": {
         "multimcOptions": {

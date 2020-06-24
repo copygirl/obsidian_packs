@@ -1,6 +1,6 @@
 title     = "obsidian 1.12 Modpack"
 authors   = listOf("copygirl", "Nikky", "capitalthree")
-version   = "0.3.1"
+version   = "0.4.0"
 icon      = rootFolder.resolve("icon.png")
 
 mcVersion = "1.12.2"
@@ -44,9 +44,10 @@ root<Curse> {
         +Mod.passableLeaves // Pass through leaves
 
         // Cosmetics
-        +Mod.morePlayerModels    // Player model customization
-        +Mod.tails               // Lets you have tails and ears and stuff!
-            +Mod.immersiveFloofs // - Shoot players to make them floofy
+        +Mod.cosmeticArmorReworked // Cosmetic armor slots for that style
+        +Mod.morePlayerModels      // Player model customization
+        +Mod.tails                 // Lets you have tails and ears and stuff!
+            +Mod.immersiveFloofs   // - Shoot players to make them floofy
 
         // Customization
         +Mod.artisanWorktables     // Custom crafting tables, can use tools and fluids
@@ -119,6 +120,7 @@ root<Curse> {
         +Mod.immersiveEngineering    // Electrical power, machines, ...
             +Mod.engineersDecor        // - IE inspired decorative blocks and devices
             +Mod.engineersDoors        // - Treated Wood and Steel doors and trapdoors
+            +Mod.immersiveCables       // - Cables for Applied Energistics 2 and Refined Storage
             +Mod.immersiveIntelligence // - Data & Electronics, Logistics, Warfare, Intelligence
             +Mod.immersivePetroleum    // - Oil extraction and processing
             +Mod.immersiveposts        // - Tall posts to attach cables to
@@ -175,9 +177,10 @@ root<Curse> {
             side = Side.CLIENT
         }.list {
             // CLIENT REQUIRED MODS
-            +Mod.blockDropsJeiAddon
-            +Mod.justEnoughResourcesJer
-            +Mod.thaumicJei
+            +Mod.blockDropsJeiAddon     // Displays drops that don't drop themselves in JEI
+            +Mod.justEnoughResourcesJer // Additional JEI tabs for mob drops, dungeon loot and more
+            +Mod.moreOverlays           // Shows light level overlay, chunk boundaries, item search
+            +Mod.thaumicJei             // JEI support for Thaumcraft recipes and aspect sources
 
             // CLIENT RECOMMENDED MODS
             group {

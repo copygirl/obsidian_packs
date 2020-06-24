@@ -127,8 +127,9 @@ var non_magic_grimoires = [
 ] as IItemStack[];
 
 // Remove any Grimoires not based on magical materials.
-for grimoire in non_magic_grimoires { JEI.hide(grimoire); }
 <ore:artisansGrimoire>.removeItems(non_magic_grimoires);
+for grimoire in non_magic_grimoires
+    JEI.hide(grimoire);
 
 
 // =====================
