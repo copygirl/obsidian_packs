@@ -3,12 +3,12 @@
     "common": {
         "dependencies": {
             "REQUIRED": [
-                "mystical-world",
                 "mysticallib",
-                "patchouli"
+                "patchouli",
+                "mystical-world"
             ]
         }
     },
     "projectID": 246183,
-    "fileID": 2988227
+    "fileID": 2993578
 }

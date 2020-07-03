@@ -3,11 +3,11 @@
     "common": {
         "dependencies": {
             "REQUIRED": [
-                "athenaeum",
-                "artisan-worktables"
+                "artisan-worktables",
+                "athenaeum"
             ]
         }
     },
     "projectID": 373329,
-    "fileID": 2964280
+    "fileID": 2994098
 }
