@@ -169,7 +169,6 @@ root<Curse> {
             optional { selected = false }
         }.list {
             +Mod.btfuContinuousRsyncIncrementalBackup { name = "BTFU"; description = "Best backup mod in existence! (setup required)" }
-            +Mod.matterlink { description = "MatterBridge endpoint for Minecraft servers (requires relay)" }
         }
 
         // CLIENT MODS
